@@ -1,0 +1,89 @@
+:root {
+  --white: #fff;
+  --black: #131313;
+  --primary: #19383a;
+  --primaryDarkBlue: #011d2f;
+  --tertiary: #212338;
+  --light-primary: #c7eb93;
+  --light-green: #e3f8cf;
+  --brand-color: #a0d800;
+  --dark-green: #1cbe4b;
+  --gray: #4f4f4f;
+  --blue: #2f80ed;
+  --gray-2: #6f7c97;
+  --light-gray: #d9d9d9;
+  --dark-blue: #022242;
+  --black-solid: #221314;
+  --dark-black: #0f203a;
+  --dark-black1: #0f2546;
+  --dark-purple: #6c1a45;
+  --text-color: #2e2e30;
+  --secondary: #ffaf10;
+  --card-bg: #404968;
+  --danger: #ef466f;
+  --success: #53b13e;
+  --info: #6180f2;
+  --warning: #f9c055;
+  --light-blue: #39f;
+  --primaryLightBlue: #262250;
+  --light: #eff2f8;
+  --gray-light: #f6f6f6;
+  --blue-grt: background linear-gradient(180deg, #40ddff 0%, #13b1e6 100%);
+
+  --accent-grt: radial-gradient(
+    296.5% 2054% at -19.12% 259.5%,
+    #bbf613 0%,
+    #16bc4e 50%,
+    #42baa2 100%
+  );
+
+  --body-text-color: #212338;
+  --font-family-base: "Plus Jakarta Sans", sans-serif;
+  --headings-font-family: "Plus Jakarta Sans", sans-serif;
+
+  --headings-color: var(--black);
+
+  --h1-font-size: 50px;
+  --h2-font-size: 40px;
+  --h3-font-size: 35px;
+  --h4-font-size: 30px;
+  --h5-font-size: 22px;
+  --h6-font-size: 18px;
+
+  --base-link-color: var(--primary);
+
+  --btn-color: var(--white);
+  --primary-btn-background: var(--primary);
+  --btn-padding: 18px 10px;
+
+  --font-size-tiny: 0.625rem; /* 10px */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-xxl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.625rem; /* 26px */
+
+  --z-10: 10;
+  --z-20: 20;
+  --z-30: 30; /* header dropdown */
+  --z-40: 40; /* header */
+  --z-50: 50; /* Modal */
+  --z-90: 90; /* Toast */
+
+  --form-element-padding: 5px 10px;
+  --form-element-padding-lg: 0.75rem 1.4375rem;
+  --form-element-height: 45px;
+  --form-element-height-lg: 60px;
+  --form-element-radius: 6px;
+  --form-element-border-color: var(--light-gray);
+  --form-element-border-width: 1px;
+  --form-element-focus-border-color: var(--black);
+  --placeholder-color: var(--light-gray);
+
+  --tooltip-text-color: white;
+  --tooltip-background-color: black;
+  --tooltip-margin: 10px;
+  --tooltip-arrow-size: 6px;
+}
