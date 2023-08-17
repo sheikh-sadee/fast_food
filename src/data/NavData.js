@@ -8,23 +8,25 @@ export const NavData = [
   {
     id: 2,
     title: "MENU",
+    path: "/under-construction",
     live: true,
   },
   {
     id: 3,
     title: "PHOTOS",
+    path: "/under-construction",
     live: true,
   },
   {
     id: 4,
     title: "CONTACT US",
-    path: "/about-us",
+    path: "/under-construction",
     live: true,
   },
   {
     id: 5,
     title: "RESERVATION",
-    path: "/plastk-business-accelerator",
+    path: "/under-construction",
     live: true,
   },
 ];

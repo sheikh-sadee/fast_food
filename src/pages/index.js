@@ -11,7 +11,6 @@ import Img03 from "../../public/images/promo-img-mobile_[plastk,home,info].jpg";
 
 import HeroSlider from "../components/HeroSlider";
 import SEO from "@/components/Seo";
-import Button from "@/components/UI/Button";
 import PageBanner from "@/components/PageBanner";
 import MapHolder from "@/components/MapHolder";
 
@@ -19,9 +18,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Best Secured Credit Card | Improve Your Credit Score | Plastk"
-        description="Guaranteed approval even with bad credit. Plastk Secured Credit Card is the newest and best way to build your credit in Canada. Get weekly tips and insights to improve your credit in Canada.
-        "
+        title="Fast Food Hub"
       />
       <PageBanner/>
       <HeroSlider />
