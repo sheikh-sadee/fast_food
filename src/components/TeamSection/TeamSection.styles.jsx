@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TeamBlock = styled.div`
+export const ImgBlock = styled.div`
   position: relative;
   padding: 25px 0;
 

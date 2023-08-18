@@ -14,7 +14,7 @@ export const NavData = [
   {
     id: 3,
     title: "PHOTOS",
-    path: "/under-construction",
+    path: "/photos",
     live: true,
   },
   {

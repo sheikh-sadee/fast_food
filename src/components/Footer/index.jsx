@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import LogoImg from "../../../public/food_logo.png";
+import LogoImg from "../../../public/logo_img.jpeg";
 import CanadaFlag from "../../../public/canada-flag.svg";
 import { useMediaPredicate } from "react-media-hook";
 
@@ -130,16 +130,7 @@ function Footer() {
             <Socialnetworks>
               <li>
                 <Link
-                  href="https://ca.linkedin.com/company/plastk-financial-rewards"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span className="plastk-icons">linkedin</span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://twitter.com/plastkvisa"
+                  href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -148,7 +139,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://www.facebook.com/plastkcard"
+                  href="https://www.facebook.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -157,7 +148,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://www.instagram.com/plastkvisa"
+                  href="https://www.instagram.com"
                   target="_blank"
                   rel="noreferrer"
                 >

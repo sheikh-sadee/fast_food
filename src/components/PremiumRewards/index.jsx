@@ -5,6 +5,7 @@ import Image from "next/image";
 import IconCash from "../../assets/images/icon-cash-back.png";
 import { Container } from "../../styles/common";
 import rewardsSlideData from "../../data/RewardsSlideData";
+import logo from "../../../public/logo_img.jpeg";
 import {
   RewardSection,
   HeadingHolder,
@@ -59,7 +60,7 @@ function PremiumRewards() {
             <div className="slide-holder" key={index}>
               <div className="slide">
                 <div className="slide-wrap">
-                  <span className="ico plastk-icons">plastk_p</span>
+                <span className="logo"><Image src={logo} alt="logo"/></span>
                   <div
                     className="img-box"
                     style={{ backgroundImage: `url(${item.image})` }}
@@ -75,8 +76,7 @@ function PremiumRewards() {
                   <div className="text-box desktop-only">
                     <strong className="title">{item.title}</strong>
                     <p>
-                      Use your points for merchandise from thousands of brand
-                      names such as Apple, Sony, LG, Coach and more!.
+                      Taste of Pakistan!.
                     </p>
                   </div>
                 </div>

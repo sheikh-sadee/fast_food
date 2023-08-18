@@ -206,7 +206,18 @@ export const SliderHolder = styled.div`
         }
       }
     }
-
+    .logo {
+      position: absolute;
+      top: 18px;
+      right: 16px;
+      z-index: 3;
+      width: 25px;
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
     .slide-wrap {
       position: relative;
       padding: 140px 18px 20px;
