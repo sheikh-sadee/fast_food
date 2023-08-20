@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Fast Food Hub"
+        title="Taj Mahal"
       />
       <PageBanner/>
       <HeroSlider />

@@ -105,7 +105,7 @@ function Footer() {
   return (
     <FooterCon className={footerColorClass}>
       <ContainerFooter>
-        <h2 className="h1">Fast Food Hub</h2>
+        <h2 className="h1">Taj Mahal</h2>
         <FooterContent>
           <div className="column logo-column">
             <Logo>
