@@ -18,16 +18,17 @@ function InformationForm() {
   const onSubmit = (values) => {
     console.log({ values });
   };
-  const menu = [
-    { value: "Chicken Karahi", label: "Chicken Karahi" },
-    { value: "Mutton Karahi", label: "Mutton Karahi" },
-    { value: "Gola Kabab", label: "Gola Kabab" },
-    { value: "Arabian Shawarma", label: "Arabian Shawarma" },
-    {
-      value: "Achari Handi",
-      label: "Achari Handi",
-    },
+  const Starters = [
+    { value: "Onion Rings", label: "Onion Rings" },
+    { value: "Chicken Pakora", label: "Chicken Pakora" },
   ];
+  const Soups = [];
+  const TajMahalSpecialities = [];
+  const BBQ = [];
+  const Rice = [];
+  const Desserts = [];
+  const Beverages = [];
+
   return (
     <>
       <ImageHolder style={{ backgroundImage: `url(${image01.src})` }}>
@@ -75,24 +76,117 @@ function InformationForm() {
                     type="email"
                     placeholder="Email"
                     rules={[
-                      { email: true, message: 'Please enter a valid email' },
-                      { max: 40, message: 'Email should be at max 40 characters!' },
-                    ]}>
-                  
+                      { email: true, message: "Please enter a valid email" },
+                      {
+                        max: 40,
+                        message: "Email should be at max 40 characters!",
+                      },
+                    ]}
+                  >
                     <Field />
                   </Form.Item>
                 </GridCol>
-                <GridCol md={24}>
+                <GridCol md={12}>
                   <Form.Item
                     lg
-                    options={menu}
+                    options={Starters}
                     isSearchable
                     isMulti
                     hideSelectedOptions={false}
                     closeMenuOnSelect={false}
-                    name="menu"
-                    label="Menu"
-                    placeholder="Select Menu"
+                    name="Starters"
+                    label="Starters"
+                    placeholder="Select Starter"
+                  >
+                    <Select />
+                  </Form.Item>
+                </GridCol>
+                <GridCol md={12}>
+                  <Form.Item
+                    lg
+                    options={Soups}
+                    isSearchable
+                    isMulti
+                    hideSelectedOptions={false}
+                    closeMenuOnSelect={false}
+                    name="Soups"
+                    label="Soups"
+                    placeholder="select an opotion"
+                  >
+                    <Select />
+                  </Form.Item>
+                </GridCol>
+                <GridCol md={12}>
+                  <Form.Item
+                    lg
+                    options={TajMahalSpecialities}
+                    isSearchable
+                    isMulti
+                    hideSelectedOptions={false}
+                    closeMenuOnSelect={false}
+                    name="Taj Mahal Specialities"
+                    label="Taj Mahal Specialities"
+                    placeholder="select an option"
+                  >
+                    <Select />
+                  </Form.Item>
+                </GridCol>
+                <GridCol md={12}>
+                  <Form.Item
+                    lg
+                    options={BBQ}
+                    isSearchable
+                    isMulti
+                    hideSelectedOptions={false}
+                    closeMenuOnSelect={false}
+                    name="BBQ"
+                    label="BBQ"
+                    placeholder="select an option"
+                  >
+                    <Select />
+                  </Form.Item>
+                </GridCol>
+                <GridCol md={12}>
+                  <Form.Item
+                    lg
+                    options={Rice}
+                    isSearchable
+                    isMulti
+                    hideSelectedOptions={false}
+                    closeMenuOnSelect={false}
+                    name="Rice"
+                    label="Rice"
+                    placeholder="select an option"
+                  >
+                    <Select />
+                  </Form.Item>
+                </GridCol>
+                <GridCol md={12}>
+                  <Form.Item
+                    lg
+                    options={Desserts}
+                    isSearchable
+                    isMulti
+                    hideSelectedOptions={false}
+                    closeMenuOnSelect={false}
+                    name="Desserts"
+                    label="Desserts"
+                    placeholder="select an option"
+                  >
+                    <Select />
+                  </Form.Item>
+                </GridCol>
+                <GridCol md={12}>
+                  <Form.Item
+                    lg
+                    options={Beverages}
+                    isSearchable
+                    isMulti
+                    hideSelectedOptions={false}
+                    closeMenuOnSelect={false}
+                    name="Beverages"
+                    label="Beverages"
+                    placeholder="select an option"
                   >
                     <Select />
                   </Form.Item>
@@ -122,7 +216,13 @@ function InformationForm() {
             </FeildHolder>
 
             <div className="btn-holder">
-              <Button className="btn-submit" rounded width="236" type="secondary"  htmlType="submit">
+              <Button
+                className="btn-submit"
+                rounded
+                width="236"
+                type="secondary"
+                htmlType="submit"
+              >
                 Submit Reservation
               </Button>
             </div>

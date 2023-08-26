@@ -8,7 +8,7 @@ export const NavData = [
   {
     id: 2,
     title: "MENU",
-    path: "/under-construction",
+    path: "/menu",
     live: true,
   },
   {

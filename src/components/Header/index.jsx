@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Image from "next/image";
-import Logo from "../../../public/logo_img.jpeg";
+import Logo from "../../../public/logo.png";
 import * as React from "react";
 import Link from "next/link";
 //import { Container } from '../../styles/common';

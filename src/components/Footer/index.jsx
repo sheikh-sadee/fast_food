@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import LogoImg from "../../../public/logo_img.jpeg";
+import LogoImg from "../../../public/logo.png";
 import CanadaFlag from "../../../public/canada-flag.svg";
 import { useMediaPredicate } from "react-media-hook";
 
