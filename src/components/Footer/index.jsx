@@ -105,7 +105,6 @@ function Footer() {
   return (
     <FooterCon className={footerColorClass}>
       <ContainerFooter>
-        <h2 className="h1">Taj Mahal</h2>
         <FooterContent>
           <div className="column logo-column">
             <Logo>
@@ -119,11 +118,11 @@ function Footer() {
               </Link>
             </Logo>
           </div>
-
           <div className="column">
-            <span
-              className="title"
-            >
+            <h2 className="h1">Taj Mahal</h2>
+          </div>
+          <div className="column">
+            <span className="title">
               Social
               <span className="plastk-icons">chevron_down</span>
             </span>

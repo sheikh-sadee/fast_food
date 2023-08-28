@@ -4,7 +4,6 @@ export const TopBarWrap = styled.header`
   position: relative;
   width: 100%;
   padding: 10px;
-  margin: 0 0 10px;
   color: var(--white);
   background: var(--secondary);
   z-index: var(--z-40);

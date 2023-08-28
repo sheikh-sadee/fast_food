@@ -1,88 +1,199 @@
 import React from "react";
-import {
-  OurMenuSection,
-  SingleMenu,
-  PageTitle,
-  PageTitleHeading,
-  MenuButton,
-  MenuTab,
-  MenuContent,
-  TabLink,
-} from "./Menu.styles";
 
-const MenuItem = ({ imgSrc, title, price, description }) => (
-  <SingleMenu>
-    <img src={imgSrc} alt={title} />
-    <MenuContent>
-      <h4>
-        {title} <span>${price}</span>
-      </h4>
-      <p>{description}</p>
-    </MenuContent>
-  </SingleMenu>
-);
+import Link from "next/link";
+import Image from "next/image";
+import Img1 from "../../../public/food_image_2.jpg";
+import DataTabs from "../UI/MenuTabs";
+import MenuItemCard from "../MenuItemCard";
+import { OurMenuSection, PageTitle } from "./Menu.styles";
+import { Container } from "@/styles/common";
 
 const OurMenu = () => {
+  const tabData = [
+    {
+      label: "Starters",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Starters"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Starters"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Starters"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+        </>
+      ),
+    },
+    {
+      label: "Soups",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Soups"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Soups"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Soups"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+        </>
+      ),
+    },
+    {
+      label: "Taj Mehal Specialities",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Taj Mehal Specialities"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Taj Mehal Specialities"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Taj Mehal Specialities"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+        </>
+      ),
+    },
+    {
+      label: "BBQ",
+      content: (
+        <>
+          <MenuItemCard
+            heading="BBQ"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="BBQ"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="BBQ"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+        </>
+      ),
+    },
+    {
+      label: "Rice",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Rice"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Rice"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Rice"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+        </>
+      ),
+    },
+    {
+      label: "Desserts",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Desserts"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Desserts"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Desserts"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+        </>
+      ),
+    },
+    {
+      label: "Beverages",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Beverages"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Beverages"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+          <MenuItemCard
+            heading="Beverages"
+            price="25"
+            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
+            img={Img1}
+          />
+        </>
+      ),
+    },
+  ];
+
   return (
     <OurMenuSection id="our_menu">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <PageTitle>
-              <PageTitleHeading>our menu</PageTitleHeading>
-            </PageTitle>
-          </div>
-        </div>
-        <div className="row">
-          <MenuTab className="nav nav-tabs menu_tab" id="myTab" role="tablist">
-            <li className="nav-item">
-              <TabLink className="nav-link active" href="#breakfast" role="tab">
-                Breakfast
-              </TabLink>
-            </li>
-            <li className="nav-item">
-              <TabLink className="nav-link active" href="#Lunch" role="tab">
-                Lunch
-              </TabLink>
-            </li>
-            <li className="nav-item">
-              <TabLink className="nav-link active" href="#Dinner" role="tab">
-                Dinner
-              </TabLink>
-            </li>
-          </MenuTab>
-        </div>
-        <div className="row">
-          <div className="tab-content col-lg-12" id="myTabContent">
-            <div
-              className="tab-pane fade show active"
-              id="breakfast"
-              role="tabpanel"
-            >
-              <div className="row">
-                <div className="col-md-6">
-                  <MenuItem
-                    imgSrc="https://i.imgur.com/kbpceNv.jpg"
-                    title="Chicken Burger"
-                    price="24"
-                    description="Aperiam tempore sit, perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-                  />
-                </div>
-                <div className="col-md-6">
-                  <MenuItem
-                    imgSrc="https://i.imgur.com/TAq7lDR.jpg"
-                    title="Chicken Burger"
-                    price="24"
-                    description="Aperiam tempore sit, perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <MenuButton className="menu_btn btn btn-danger" href="#">
-            view more
-          </MenuButton>
-        </div>
+        <PageTitle>
+          <h1>our menu</h1>
+        </PageTitle>
+        <DataTabs tabData={tabData} />
       </div>
     </OurMenuSection>
   );

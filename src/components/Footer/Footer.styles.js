@@ -9,7 +9,7 @@ export const FooterCon = styled.footer`
   color: var(--white);
   font-size: var(--font-size-tiny);
   line-height: calc(var(--font-size-tiny) + 3px);
-  background: var(--primary);
+  background: #c0392b;
 
   .title {
     font-weight: 600;
@@ -40,6 +40,7 @@ export const FooterCon = styled.footer`
     font-weight: 600;
     color: var(--white);
     text-align: center;
+    margin:0;
   }
 `;
 
@@ -57,6 +58,7 @@ export const Logo = styled.div`
 export const FooterContent = styled.div`
   display: flex;
   gap: 20px;
+  align-items: center;
   justify-content: space-between;
 
   a {
