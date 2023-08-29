@@ -16,7 +16,7 @@ function PageBanner() {
             rounded
             width="250"
             as={Link}
-            href="/under-construction"
+            href="/reservation"
           >
             Reservations
           </Button>
