@@ -11,14 +11,16 @@ import Link from "next/link";
 function ImageSection() {
   return (
     <ImgBlock>
-      <Container>
+      <Container className="holder">
         <div className="header">
-          <h1>Enjoy Delicious Food in your Healthy Life</h1>
+          <h1>
+            Enjoy Delicious Food in your Healthy Life
+          </h1>
         </div>
         <ColHolder>
           <TeamMember
             data-aos-delay="50"
-            img={<Image src={img01} alt="img description" />}       
+            img={<Image src={img01} alt="img description" />}
           />
           <TeamMember
             data-aos-delay="100"
@@ -30,7 +32,7 @@ function ImageSection() {
           />
           <TeamMember
             data-aos-delay="50"
-            img={<Image src={img01} alt="img description" />}       
+            img={<Image src={img01} alt="img description" />}
           />
           <TeamMember
             data-aos-delay="100"
@@ -42,7 +44,7 @@ function ImageSection() {
           />
           <TeamMember
             data-aos-delay="50"
-            img={<Image src={img01} alt="img description" />}       
+            img={<Image src={img01} alt="img description" />}
           />
           <TeamMember
             data-aos-delay="100"
@@ -52,9 +54,9 @@ function ImageSection() {
             data-aos-delay="150"
             img={<Image src={img02} alt="img description" />}
           />
-           <TeamMember
+          <TeamMember
             data-aos-delay="50"
-            img={<Image src={img01} alt="img description" />}       
+            img={<Image src={img01} alt="img description" />}
           />
           <TeamMember
             data-aos-delay="100"

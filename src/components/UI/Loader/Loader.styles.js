@@ -33,7 +33,7 @@ export const LoaderParent = styled.div`
       bottom: 0;
       margin: auto;
       border: 3px solid;
-      border-color: transparent transparent var(--brand-color) var(--brand-color);
+      border-color: transparent transparent var(--secondary) var(--secondary);
       width: 40px;
       height: 40px;
       border-radius: 50%;

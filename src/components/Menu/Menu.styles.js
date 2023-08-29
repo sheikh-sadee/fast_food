@@ -37,11 +37,16 @@ export const PageTitle = styled.div`
   }
 `;
 export const OurMenuSection = styled.section`
-  padding: 50px 0;
+  padding: 5px 0 25px;
+
+  @media (min-width: 768px) {
+    padding: 25px 0;
+  }
 
   .container {
     max-width: 1250px;
     margin: 0 auto;
     padding: 0 15px;
   }
+
 `;

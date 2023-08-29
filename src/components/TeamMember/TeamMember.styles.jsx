@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const Column = styled.div`
-  max-width: 100%;
+  max-width: 48%;
   font-size: 14px;
   line-height: 21px;
   position: relative;
-  margin: 0 auto 25px;
+  margin: 0 auto 5px;
 
   @media (min-width: 480px) {
-    max-width: 300px;
     margin: 0 auto 20px;
     font-size: 16px;
     line-height: 21px;
@@ -30,31 +29,21 @@ export const Column = styled.div`
 `;
 
 export const ImgBox = styled.div`
-  margin: 0 -15px 20px;
+  width: 100%;
+  margin: 0 0 5px;
   position: relative;
 
-  @media (min-width: 480px) {
-    width: 200px;
-    margin: 0 auto 20px;
-  }
+ 
   @media (min-width: 768px) {
     margin: 0 0 20px;
-  }
-  @media (min-width: 992px) {
-    width: 250px;
-  }
-  @media (min-width: 1200px) {
-    width: 278px;
   }
 
   img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    border-radius: 10px;
 
-    @media (min-width: 768px) {
-      border-radius: 20px;
-    }
     @media (max-width: 479px) {
       width: 100%;
     }

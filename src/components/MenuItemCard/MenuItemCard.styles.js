@@ -1,48 +1,57 @@
 import styled from "styled-components";
 
 export const ItemCard = styled.div`
-  width: 48%;
-  display: flex;
+  width: 100%;
   align-items: center;
   position: relative;
   gap: 20px;
   text-align: left;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
   color: var(--black);
+
+  @media (min-width: 700px) {
+    width: 48%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: 992px) {
+    display: flex;
+  }
 
   .textwrap {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px dashed #000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 0 0 10px;
-
+    
     .price {
       display: block;
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 22px;
       font-weight: 700;
+
+      @media (min-width: 700px) {
+        font-size: 20px;
+        line-height: 24px;
+      }
     }
   }
 
   h3 {
     text-align: left;
     margin: 0;
-    font-size: 24px;
-      line-height: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    @media (min-width: 700px) {
+      font-size: 22px;
+      line-height: 28px;
+    }
   }
 
   p {
-    margin: 0 0 30px;
-  }
-
-  .btn-box {
-    @media (max-width: 767px) {
-      position: absolute;
-      left: 25px;
-      bottom: 20px;
-    }
+    margin: 0 0 10px;
   }
 `;
 
@@ -51,6 +60,15 @@ export const TextHolder = styled.div`
 `;
 export const ImgHolder = styled.div`
   align-self: flex-start;
-  flex-shrink:0;
-  max-width: 180px;
+  flex-shrink: 0;
+  max-width: 100%;
+  margin: 0 0 15px;
+
+  @media (min-width: 992px) {
+    max-width: 180px;
+    margin: 0;
+  }
+  img {
+    border-radius: 8px;
+  }
 `;

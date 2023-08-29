@@ -7,6 +7,14 @@ export const TopBarWrap = styled.header`
   color: var(--white);
   background: var(--secondary);
   z-index: var(--z-40);
+  font-size:12px;
+  line-height:15px;
+
+  
+  @media (min-width: 768px) {
+    font-size:16px;
+    line-height:20px;  
+  }
 
   .holder {
     max-width: 1400px;

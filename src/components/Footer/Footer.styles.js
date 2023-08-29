@@ -9,7 +9,7 @@ export const FooterCon = styled.footer`
   color: var(--white);
   font-size: var(--font-size-tiny);
   line-height: calc(var(--font-size-tiny) + 3px);
-  background: #c0392b;
+  background: #750119;
 
   .title {
     font-weight: 600;

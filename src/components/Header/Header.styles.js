@@ -7,10 +7,9 @@ export const HeaderWrap = styled.header`
   right: 0;
   width: 100%;
   z-index: var(--z-40);
-  padding-top: 15px;
-  padding-bottom: 15px;
   background: var(--white);
   transition: box-shadow 0.3s ease-in-out, padding 0.3s ease-in-out;
+  border-bottom:1px solid var(--secondary);
 
   .btn-login {
     margin-right: 10px;
@@ -93,10 +92,11 @@ export const Flex = styled.div`
   display: flex;
   align-items: center;
   position: relative;
+  padding: 15px;
 
   &.container {
     max-width: 1230px;
-    padding: 0 15px;
+    
     margin: 0 auto;
   }
 `;
@@ -214,7 +214,7 @@ export const MainNav = styled.nav`
     background: #1e1e1e;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     transition: all 0.3s;
   }
 
@@ -315,7 +315,7 @@ export const Menu = styled.ul`
 
       &:after {
         content: "";
-        background: var(--body-text-color);
+        background: var(--secondary);
         position: absolute;
         top: 0;
         bottom: 0;
@@ -339,11 +339,7 @@ export const Menu = styled.ul`
         width: 20px;
         height: 3px;
         border-radius: 50px;
-        background: var(--primary);
-
-        .dark-bg & {
-          background: var(--white);
-        }
+        background: var(--secondary);
 
         @media (max-width: 767px) {
           display: none;
@@ -384,8 +380,8 @@ export const Menu = styled.ul`
 
 export const NavOpener = styled.button`
   position: absolute;
-  top: 0;
-  right: 15px;
+  top: 20px;
+  right: 12px;
   width: 45px;
   height: 44px;
   border: 0;

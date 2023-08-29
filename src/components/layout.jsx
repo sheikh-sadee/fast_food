@@ -16,10 +16,10 @@ import Footer from "./Footer";
 const Wrapper = styled.div`
   position: relative;
   overflow: hidden;
-  padding-top: 155px;
+  padding-top: 139px;
 
-  @media (min-width: 992px) {
-    padding-top: 138px;
+  @media (min-width: 768px) {
+    padding-top: 125px;
   }
 `;
 
