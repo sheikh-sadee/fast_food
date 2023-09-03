@@ -9,7 +9,6 @@ export const HeaderWrap = styled.header`
   z-index: var(--z-40);
   background: var(--white);
   transition: box-shadow 0.3s ease-in-out, padding 0.3s ease-in-out;
-  border-bottom:1px solid var(--secondary);
 
   .btn-login {
     margin-right: 10px;
