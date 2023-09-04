@@ -146,16 +146,16 @@ export default async function handler(req, res) {
     </html>
     
     `;
-
+    console.log("body", body);
     // const response = await sendMail(body);
 
-    // if (response.success) {
-    //   res.status(200).send({
-    //     ...response,
-    //   });
-    // } else {
-    //   throw response;
-    // }
+    if (response.success) {
+      res.status(200).send({
+        ...response,
+      });
+    } else {
+      throw response;
+    }
   } catch (error) {
     res.status(400).send({
       ...error,

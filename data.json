@@ -1,0 +1,22 @@
+{
+  "Starters": [
+    {
+      "item": "Onion Rings",
+      "description": "Fried onion rings",
+      "price": "$5.99"
+    },
+    { "item": "Pakora", "description": "Deep-fried snacks", "price": "$4.99" }
+  ],
+  "Main Courses": [
+    {
+      "item": "Chicken Curry",
+      "description": "Spicy chicken curry",
+      "price": "$10.99"
+    },
+    {
+      "item": "Vegetable Stir-Fry",
+      "description": "Mixed vegetables",
+      "price": "$8.99"
+    }
+  ]
+}

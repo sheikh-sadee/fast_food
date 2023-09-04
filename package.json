@@ -23,6 +23,7 @@
     "module": "^1.2.5",
     "next": "13.4.4",
     "nodemailer": "^6.9.4",
+    "pdfkit": "^0.13.0",
     "polished": "^4.2.2",
     "rc-util": "^5.34.1",
     "react": "18.2.0",
