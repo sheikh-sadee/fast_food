@@ -122,10 +122,6 @@ function Footer() {
             <h2 className="h1">Taj Mahal</h2>
           </div>
           <div className="column">
-            <span className="title">
-              Social
-              <span className="plastk-icons">chevron_down</span>
-            </span>
             <Socialnetworks>
               <li>
                 <Link

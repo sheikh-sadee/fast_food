@@ -37,5 +37,24 @@ export const TopBarWrap = styled.header`
         color: var(--white);
       }
     }
+
+    a {
+      color: var(--white);
+    }
+
+    .text {
+      display:none;
+      @media (min-width: 768px) {
+        
+        display:inline-block;
+      }
+    }
+
+    .btn-call {
+      display:inline-block;
+      @media (min-width: 768px) {
+        display:none;
+      }
+    }
   }
 `;

@@ -17,6 +17,7 @@ export const ItemCard = styled.div`
   }
   @media (min-width: 992px) {
     display: flex;
+    align-items:flex-start;
   }
 
   .textwrap {
@@ -31,23 +32,14 @@ export const ItemCard = styled.div`
       font-size: 18px;
       line-height: 22px;
       font-weight: 700;
-
-      @media (min-width: 700px) {
-        font-size: 20px;
-        line-height: 24px;
-      }
     }
   }
 
   h3 {
     text-align: left;
     margin: 0;
-    font-size: 20px;
-    line-height: 24px;
-    @media (min-width: 700px) {
-      font-size: 22px;
-      line-height: 28px;
-    }
+    font-size: 18px;
+    line-height: 22px;
   }
 
   p {
@@ -62,11 +54,16 @@ export const ImgHolder = styled.div`
   align-self: flex-start;
   flex-shrink: 0;
   max-width: 100%;
+  
   margin: 0 0 15px;
+  overflow:hidden;
+  border-radius:10px;
 
   @media (min-width: 992px) {
-    max-width: 180px;
+    max-width: 175px;
+    height:175px;
     margin: 0;
+    
   }
   img {
     border-radius: 8px;

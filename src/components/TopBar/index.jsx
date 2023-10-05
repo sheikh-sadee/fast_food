@@ -8,7 +8,11 @@ function TopBar() {
   return (
     <TopBarWrap>
       <div className="holder">
-        <p className="socialnetworks">Call Us Today (+351)963 203 810 | Open 7 days a week </p>
+        <p className="socialnetworks">Call Us Today <a href="tel:(+351)963 203 810">
+          <span class="material-icons-outlined btn-call">
+          call
+        </span>
+        <span className="text">(+351)963 203 810</span></a> | Open 7 days a week </p>
         <ul className="socialnetworks">
           <li>
             <Link href="/">
@@ -21,7 +25,7 @@ function TopBar() {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="http://www.instagram.com/tajmahalbraganca">
               <span className="plastk-icons">instagram</span>
             </Link>
           </li>
