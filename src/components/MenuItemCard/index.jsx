@@ -11,7 +11,7 @@ function MenuItemCard({ heading, paragraph, price, img }) {
       <TextHolder>
         <div className="textwrap">
           <h3>{heading}</h3>
-          <span className="price">${price}</span>
+          <span className="price">{price}</span>
         </div>
         <p>{paragraph}</p>
       </TextHolder>

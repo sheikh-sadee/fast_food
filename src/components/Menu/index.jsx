@@ -8,6 +8,11 @@ import starter2 from "../../../public/starter_2.jpg";
 import starter3 from "../../../public/starter_3.jpg";
 import starter4 from "../../../public/starter_4.png";
 import starter5 from "../../../public/starter_5.png";
+import starter6 from "../../../public/starter_6.jpg";
+import soup1 from "../../../public/soup_1.png";
+import soup2 from "../../../public/soup_2.png";
+import soup3 from "../../../public/soup_3.png";
+import soup4 from "../../../public/soup_4.png";
 import DataTabs from "../UI/MenuTabs";
 import MenuItemCard from "../MenuItemCard";
 import { OurMenuSection, PageTitle } from "./Menu.styles";
@@ -50,6 +55,12 @@ const OurMenu = () => {
             paragraph="Batatas fritas revestidas com massa de Farinha de lentilhas. Servido com dois molhos. Uma entrada obrigatória Antes de ir para o prato principal."
             img={starter5}
           />
+          <MenuItemCard
+            heading="Fried Fish "
+            price="8,99€"
+            paragraph="Filetes de peixe tenros, macios, com cobertura picante e esfarelados, fritos, servidos com salada de repolho e batatas fritas."
+            img={starter6}
+          />
         </>
       ),
     },
@@ -58,22 +69,28 @@ const OurMenu = () => {
       content: (
         <>
           <MenuItemCard
-            heading="Soups"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Hot and Sour soup"
+            price="2,99€"
+            paragraph="Hot and Sour Soup é uma sopa popular estilo restaurante da culinária indo chinesa. Como o nome sugere, esta sopa com vegetais ganha sabor picante (picante) com o molho de pimenta e pimenta-do-reino em pó, enquanto o sabor azedo do vinagre."
+            img={soup1}
           />
           <MenuItemCard
-            heading="Soups"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Veggi Soup"
+            price="2,99€"
+            paragraph="uma receita básica de sopa que pode ser adaptada de vegetais frescos. Temperado com algumas especiarias suaves e sal, Sirva com creme fraiche e ervas frescas."
+            img={soup2}
           />
           <MenuItemCard
-            heading="Soups"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Chicken corn Soup"
+            price="3,50€"
+            paragraph="a sopa mais popular da Índia, feita com milho doce fresco e um pouco de frango cozido, é a melhor entrada saudável antes de comer qualquer tipo de alimento."
+            img={soup3}
+          />
+           <MenuItemCard
+            heading="Soup Bread Dose with Butter"
+            price="1,50€"
+            paragraph="pão de manteiga crocante, combinação perfeita com a sopa."
+            img={soup4}
           />
         </>
       ),
