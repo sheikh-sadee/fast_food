@@ -40,12 +40,12 @@ export const FooterCon = styled.footer`
     font-weight: 600;
     color: var(--white);
     text-align: center;
-    margin:0;
+    margin: 0;
   }
 `;
 
 export const Logo = styled.div`
-  width: 98px;
+  width: 150px;
   margin-bottom: 15px;
   @media (min-width: 768px) {
     margin: 0 auto 15px;

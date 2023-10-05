@@ -1,4 +1,4 @@
-// import { sendMail } from "../../../utils/mailer";
+import { sendMail } from "../../../utils/mailer";
 
 export default async function handler(req, res) {
   try {
@@ -16,7 +16,6 @@ export default async function handler(req, res) {
       time,
       persons,
     } = payload;
-    console.log(payload);
     const body = `<!DOCTYPE html>
     <html>
     <head>
@@ -146,8 +145,7 @@ export default async function handler(req, res) {
     </html>
     
     `;
-    console.log("body", body);
-    // const response = await sendMail(body);
+    const response = await sendMail(body);
 
     if (response.success) {
       res.status(200).send({

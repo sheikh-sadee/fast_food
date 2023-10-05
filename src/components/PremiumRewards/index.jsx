@@ -51,7 +51,7 @@ function PremiumRewards() {
     <RewardSection>
       <HeadingHolder>
         <Container>
-          <h2>Fast Food</h2>
+          <h2>Indian Traditional Food</h2>
         </Container>
       </HeadingHolder>
       <SliderHolder>
@@ -60,7 +60,9 @@ function PremiumRewards() {
             <div className="slide-holder" key={index}>
               <div className="slide">
                 <div className="slide-wrap">
-                <span className="logo"><Image src={logo} alt="logo"/></span>
+                  <span className="logo">
+                    <Image src={logo} alt="logo" />
+                  </span>
                   <div
                     className="img-box"
                     style={{ backgroundImage: `url(${item.image})` }}
@@ -75,9 +77,7 @@ function PremiumRewards() {
                   </div>
                   <div className="text-box desktop-only">
                     <strong className="title">{item.title}</strong>
-                    <p>
-                      Taste of Pakistan!.
-                    </p>
+                    <p>Taste of Pakistan!.</p>
                   </div>
                 </div>
               </div>

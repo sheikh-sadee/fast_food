@@ -8,9 +8,14 @@ function PageBanner() {
   return (
     <Banner style={{ backgroundImage: `url(${bgImg.src})` }}>
       <div className="container">
-        <h1>Welcome to Taj Mahal</h1>
+        <h1>
+          Bem Vindo Ao <br /> Taj Mahal
+        </h1>
         <TextHolder>
-          <p>Taste the spices of Pakistan in every bite!</p>
+          <p>
+            Onde as especiarias encontram os sorrisos! Culinária Indiana
+            Autêntica
+          </p>
           <Button
             type="secondary"
             rounded

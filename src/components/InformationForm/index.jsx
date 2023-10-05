@@ -11,13 +11,11 @@ import {
 import Grid from "@/components/Grid";
 import GridCol from "@/components/GridCol";
 import image01 from "../../../public/reservation_img.jpg";
-import sendMail from "../../pages/api/send-mail";
 
 function InformationForm() {
   const [form] = useForm();
 
   const onSubmit = async (values) => {
-    console.log(values);
     await fetch("/api/send-mail", {
       body: JSON.stringify({
         name: values.your_name,
