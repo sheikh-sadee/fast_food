@@ -14,7 +14,7 @@ function HeroSlider() {
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 1000,
+    speed: 500,
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,

@@ -13,6 +13,34 @@ import soup1 from "../../../public/soup_1.png";
 import soup2 from "../../../public/soup_2.png";
 import soup3 from "../../../public/soup_3.png";
 import soup4 from "../../../public/soup_4.png";
+import bbq1 from "../../../public/bbq1.jpg";
+import bbq2 from "../../../public/bbq2.jpg";
+import bbq3 from "../../../public/bbq3.jpg";
+import bbq4 from "../../../public/bbq4.jpg";
+import bbq5 from "../../../public/bbq5.jpg";
+import bbq6 from "../../../public/bbq6.jpg";
+import taj1 from "../../../public/taj1.jpg";
+import taj2 from "../../../public/taj2.jpg";
+import taj3 from "../../../public/taj3.jpg";
+import taj6 from "../../../public/taj6.jpg";
+import taj4 from "../../../public/taj4.png";
+import taj5 from "../../../public/taj5.png";
+import ic1 from "../../../public/ic1.png";
+import ic2 from "../../../public/ic2.png";
+import ic3 from "../../../public/ic3.jpg";
+import ic4 from "../../../public/ic4.jpg";
+import ic5 from "../../../public/ic5.jpg";
+import ic6 from "../../../public/ic6.jpg";
+import ic7 from "../../../public/ic7.jpg";
+import ic8 from "../../../public/ic8.jpg";
+import ic9 from "../../../public/ic9.jpg";
+import ic10 from "../../../public/ic10.png";
+import naan1 from "../../../public/naan1.jpg";
+import naan2 from "../../../public/naan2.png";
+import naan3 from "../../../public/naan3.jpg";
+import naan4 from "../../../public/naan4.jpg";
+import naan5 from "../../../public/naan5.jpg";
+import naan6 from "../../../public/naan6.png";
 import DataTabs from "../UI/MenuTabs";
 import MenuItemCard from "../MenuItemCard";
 import { OurMenuSection, PageTitle } from "./Menu.styles";
@@ -86,7 +114,7 @@ const OurMenu = () => {
             paragraph="a sopa mais popular da Índia, feita com milho doce fresco e um pouco de frango cozido, é a melhor entrada saudável antes de comer qualquer tipo de alimento."
             img={soup3}
           />
-           <MenuItemCard
+          <MenuItemCard
             heading="Soup Bread Dose with Butter"
             price="1,50€"
             paragraph="pão de manteiga crocante, combinação perfeita com a sopa."
@@ -96,26 +124,44 @@ const OurMenu = () => {
       ),
     },
     {
-      label: "Taj Mehal Specialities",
+      label: "Taj Mahal Veggi Mix",
       content: (
         <>
           <MenuItemCard
-            heading="Taj Mehal Specialities"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Mix Veggi Curry"
+            price="7,99€"
+            paragraph="Um presente para os veganos do Taj Mahal desfrutarem dos melhores sabores das especiarias indianas com toque Veggi. O curry de mistura vegetariana muito popular e muito saboroso vai fazer você dizer “Incrível”. É servido com 2 pães naan."
+            img={taj1}
           />
           <MenuItemCard
-            heading="Taj Mehal Specialities"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Taj Mehal Specialities Aloo Curry"
+            price="7,99€"
+            paragraph="O curry de batata é o prato mais prático e fácil de fazer em casa. Quase todo mundo come no almoço ou no café da manhã também. Servido com 2 pães Naan ou arroz cozido também."
+            img={taj2}
           />
           <MenuItemCard
-            heading="Taj Mehal Specialities"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Palak Paneer"
+            price="7,99€"
+            paragraph="Espinafre com requeijão, é uma experiência de lamber os dedos, é tão gostoso que com certeza da próxima vez você comerá de novo. É servido com arroz ou também com pães naan simples."
+            img={taj3}
+          />
+          <MenuItemCard
+            heading="Naan Chanay"
+            price="7,99€"
+            paragraph="Pão naan com grão de bico branco é uma combinação perfeita, do jeito que os indianos fazem o grão de bico branco que ninguém mais faz. É o café da manhã, almoço e jantar mais popular também. É servido com 2 pães naan. Abaixo a imagem mostrará o quanto eles são populares."
+            img={taj4}
+          />
+          <MenuItemCard
+            heading="Daal CHAWAL"
+            price="7,99€"
+            paragraph="Lentilhas servidas com arroz cozido e salada como acompanhamento."
+            img={taj5}
+          />
+          <MenuItemCard
+            heading="Daal Makhni 7,99€"
+            price="7,99€"
+            paragraph="Lentilha servida com manteiga, óleo de alho e temperos de sementes de pimenta vermelha, pimenta verde e mistura de temperos 4 King com cobertura de creme e servida com arroz ou 2 pães naan."
+            img={taj6}
           />
         </>
       ),
@@ -125,72 +171,144 @@ const OurMenu = () => {
       content: (
         <>
           <MenuItemCard
-            heading="BBQ"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Tandoori Leg Piece"
+            price="4,99€"
+            paragraph="  Marinado com especiarias Tandoori e iogurte e cozido no forno Tandoor, este maravilhoso e delicioso pedaço de coxa de frango é servido com molho verde e tomate."
+            img={bbq1}
           />
           <MenuItemCard
-            heading="BBQ"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Chicken Malai Boti"
+            price="9,99€"
+            paragraph="Pequenos pedaços finos de frango desossados, marinados por cerca de 18 horas na geladeira, e temperados com algumas ervas, creme de leite fresco, iogurte e preparados no forno Tandoor, esse milagre do churrasco se chama Malai Boti. Que será servido com 2 pães Nan e molhos."
+            img={bbq2}
           />
           <MenuItemCard
-            heading="BBQ"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Tandoori Tikka"
+            price="9,99€"
+            paragraph="Frango Tandoori Tikka é um churrasco indiano muito popular, marinado com Tandoori Masala e algumas ervas. Também é servido com 2 pães naan e molho de iogurte de menta."
+            img={bbq3}
           />
-        </>
-      ),
-    },
-    {
-      label: "Rice",
-      content: (
-        <>
-          <MenuItemCard
-            heading="Rice"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+           <MenuItemCard
+            heading="Chicken IRANI Boti"
+            price="9,99€"
+            paragraph="Frango O conceito IRANI Boti chegou à Índia com os imigrantes do Irã há séculos. Esses pedaços de frango para churrasco são marinados com temperos suaves e servidos com 2 pães naan e molhos."
+            img={bbq4}
           />
-          <MenuItemCard
-            heading="Rice"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+           <MenuItemCard
+            heading="Chicken and Beef Seekh Kebab"
+            price="8,99€"
+            paragraph="Picados de Frango ou Carne são marinados com cebola picada, gengibre e pasta de alho e amassados com temperos, colados nos espetos e assados no forno tandoor, servidos com 2 pães Naan e molhos."
+            img={bbq5}
           />
-          <MenuItemCard
-            heading="Rice"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+           <MenuItemCard
+            heading="Chicken Cheese Boti"
+            price="9,99€"
+            paragraph="Frango de churrasco e marinado com queijo é uma super combinação. Esses pedaços de frango são servidos com 2 pães naan e molhos."
+            img={bbq6}
           />
         </>
       ),
     },
     {
-      label: "Desserts",
+      label: "Special Indian Curries",
       content: (
         <>
           <MenuItemCard
-            heading="Desserts"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Butter Chicken"
+            price="9,99€"
+            paragraph="Butter Chicken é a mistura de tomate fresco, cebola, alho, gengibre, pimenta verde, castanha de caju e creme de leite fresco, o curry tem frango grelhado desossado e é servido com 2 pães Nan."
+            img={ic1}
           />
           <MenuItemCard
-            heading="Desserts"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Mango Chicken"
+            price="9,99€"
+            paragraph="Quando se trata de Manga toda a Índia fica louca por ela, essa fruta é uma dádiva do verão e a Índia produz mais de 75 tipos diferentes de manga, milhares de petiscos e pratos são preparados a partir do Rei das frutas que é a Manga. O restaurante Taj Mahal traz para você seu prato mais exclusivo chamado Mango Chicken, que é um curry feito com diversos temperos e polpa de manga e é servido com arroz ou 2 pães Naan."
+            img={ic2}
           />
           <MenuItemCard
-            heading="Desserts"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Chicken Karahi"
+            price="9,99€"
+            paragraph="A culinária caseira mais popular da Índia é o Chicken Karahi, um prato de frango muito simples com pasta de tomate, alho, gengibre, iogurte e creme. Servido com pão Naan fino."
+            img={ic3}
+          />
+          <MenuItemCard
+            heading="Aachari Chicken"
+            price="9,99€"
+            paragraph="O frango especial feito com tempero de picles e aquecido com óleo de palma e misturado com iogurte branco desnatado, é uma das principais opções de restaurantes da Índia. Servido com 2 pães Naan."
+            img={ic4}
+          />
+          <MenuItemCard
+            heading="Chicken Jalfrezi"
+            price="9,99€"
+            paragraph="Frango Jalfrezi, o frango com um toque de temperos indo chineses, feito de pimentão e tomate, no fogo de 180 graus. Servido com 2 pães naan."
+            img={ic5}
+          />
+          <MenuItemCard
+            heading="White Creamy Chicken"
+            price="9,99€"
+            paragraph="O frango especial feito com tempero de picles e aquecido com óleo de palma e misturado com iogurte branco desnatado, é uma das principais opções de restaurantes da Índia. Servido com 2 pães Naan."
+            img={ic6}
+          />
+          <MenuItemCard
+            heading="Lamb HANDI"
+            price="11,99€"
+            paragraph="cordeiro é um símbolo de status na Índia e até no Paquistão. Por ser mais cara de comprar em comparação com outras carnes e ainda assim ser cheia de proteínas e rica em sabor, a carne de cordeiro tem que ser muito marinada e cozida no vapor para que possa cozinhar e tirar o melhor proveito dela. O Taj Mahal traz um dos melhores do Lamb Handi com uma receita mais autêntica. O curry é feito a partir de uma mistura de 10 especiarias e diversas vegetais e frutas secas. é servido com 2 pães naan."
+            img={ic7}
+          />
+          <MenuItemCard
+            heading="Lamb Karahi"
+            price="11,99€"
+            paragraph="Cordeiro é um símbolo de status na Índia e até no Paquistão. Por ser mais cara de comprar em comparação com outras carnes e ainda assim ser cheia de proteínas e rica em sabor, a carne de cordeiro tem que ser muito marinada e cozida no vapor para ficar macia no cozimento e tirar o melhor proveito dela. Taj Mahal traz um dos melhores do Lamb Karahi. O curry é feito de pasta de tomate, iogurte e 12 especiarias. É servido com 2 pães naan."
+            img={ic8}
+          />
+          <MenuItemCard
+            heading="Beef Karahi"
+            price="11,99€"
+            paragraph="A receita do karahi de carne bovina é semelhante à do cordeiro, pois ambas as carnes levam muito tempo para serem macias. A carne é primeiro cozida no vapor e depois frita no curry de purê de batata e iogurte e depois guarnecida com gengibre por cima. Os portugueses são amantes de carne bovina e com certeza adorariam este curry. É servido também com 2 pães naan."
+            img={ic9}
+          />
+          <MenuItemCard
+            heading="Palak Chicken"
+            price="8,99€"
+            paragraph="Espinafre com frango e temperos é uma combinação muito popular de vegetais e carne no restaurante. Tem um sabor mais que delicioso e é servido com arroz cozido ou também com pães Naan."
+            img={ic10}
+          />
+        </>
+      ),
+    },
+    {
+      label: "Naan Breads",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Plain Naan "
+            price="1€"
+            img={naan1}
+          />
+          <MenuItemCard
+            heading="Sesame Naan"
+            price="1,50€"
+            img={naan2}
+          />
+          <MenuItemCard
+            heading="Butter Naan"
+            price="1,50€"
+            img={naan3}
+          />        
+          <MenuItemCard
+            heading="Zeera Naan"
+            price="1,50€"
+            img={naan4}
+          />
+          <MenuItemCard
+            heading="Garlic Naan"
+            price="2€"
+            img={naan5}
+          />
+          <MenuItemCard
+            heading="Cheese Naan"
+            price="3,50€"
+            img={naan6}
           />
         </>
       ),
