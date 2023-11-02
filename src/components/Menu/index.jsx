@@ -41,6 +41,25 @@ import naan3 from "../../../public/naan3.jpg";
 import naan4 from "../../../public/naan4.jpg";
 import naan5 from "../../../public/naan5.jpg";
 import naan6 from "../../../public/naan6.png";
+import p1 from "../../../public/p1.jpg";
+import p2 from "../../../public/p2.jpg";
+import p3 from "../../../public/p3.png";
+import p4 from "../../../public/p4.jpg";
+import p5 from "../../../public/p5.png";
+import p6 from "../../../public/p6.png";
+import piz1 from "../../../public/piz1.png";
+import piz2 from "../../../public/piz2.png";
+import piz3 from "../../../public/piz3.png";
+import piz4 from "../../../public/piz4.png";
+import piz5 from "../../../public/piz5.png";
+import piz6 from "../../../public/piz5.png";
+import piz7 from "../../../public/piz7.png";
+import piz8 from "../../../public/piz8.png";
+import kid1 from "../../../public/kid1.png";
+import kid2 from "../../../public/kid2.png";
+import kid3 from "../../../public/kid3.jpg";
+import pas1 from "../../../public/pas1.png";
+import pas2 from "../../../public/pas2.png";
 import DataTabs from "../UI/MenuTabs";
 import MenuItemCard from "../MenuItemCard";
 import { OurMenuSection, PageTitle } from "./Menu.styles";
@@ -314,26 +333,128 @@ const OurMenu = () => {
       ),
     },
     {
-      label: "Beverages",
+      label: "Parathas",
       content: (
         <>
           <MenuItemCard
-            heading="Beverages"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="PURI PARATHA"
+            price="1,50€"
+            img={p1}
           />
           <MenuItemCard
-            heading="Beverages"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Plain Paratha"
+            price="1,50€"
+            img={p2}
           />
           <MenuItemCard
-            heading="Beverages"
-            price="25"
-            paragraph="Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis."
-            img={Img1}
+            heading="Aloo Paratha"
+            price="3,50€"
+            img={p3}
+          />
+          <MenuItemCard
+            heading="Nutella Paratha"
+            price="4,00€"
+            img={p4}
+          />
+          <MenuItemCard
+            heading="Chicken Paratha Roll"
+            price="6€"
+            img={p5}
+          />
+          <MenuItemCard
+            heading="Veggi Paratha Roll"
+            price="6€"
+            img={p6}
+          />
+        </>
+      ),
+    },
+    {
+      label: "Pizza Indiano",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Indian Margarita Special M/L"
+            price="4,99€/7,99€ "
+            img={piz1}
+          />
+          <MenuItemCard
+            heading="Chicken Tikka Pizza M/L"
+            price="5,99€/10,99€"
+            img={piz2}
+          />
+          <MenuItemCard
+            heading="Chicken Malai Boti Pizza M/L"
+            price="5,99€/10,99€"
+            img={piz3}
+          />
+          <MenuItemCard
+            heading="Turkish Kebab Pizza M/L"
+            price="5,99€/10,99€"
+            img={piz4}
+          />
+          <MenuItemCard
+            heading="Dancing Fruit Pizza M/L"
+            price="5,99€/10,99€"
+            img={piz5}
+          />
+          <MenuItemCard
+            heading="Seekh Kebab Pizza M/L"
+            price="5,99€/10,99€"
+            img={piz6}
+          />
+          <MenuItemCard
+            heading="Mix Fish Special Pizza M/L"
+            price="5,99€/10’99€"
+            img={piz7}
+          />
+          <MenuItemCard
+            heading="Mumbai Special Veggi Pizza M/L"
+            price="5,99€/10,99€"
+            img={piz8}
+          />
+          
+        </>
+      ),
+    },
+    {
+      label: "Kids Menu",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Menu 1"
+            price="5,99€"
+            paragraph="Nuggets + Fries + Drink"
+            img={kid1}
+          />
+          <MenuItemCard
+            heading="Menu 2"
+            price="5,99€"
+            paragraph="Chicken Burger + Fries + Drink"
+            img={kid2}
+          />
+          <MenuItemCard
+            heading="Menu 3"
+            price="5,99€"
+            paragraph="Kids Pizza + Fries + Drink"
+            img={kid3}
+          />  
+        </>
+      ),
+    },
+    {
+      label: "Pastas (Massas)",
+      content: (
+        <>
+          <MenuItemCard
+            heading="TAJ MAHAL RED SAUCE SPECIAL Chicken PASTA"
+            price="6,50€"
+            img={pas1}
+          />
+          <MenuItemCard
+            heading="Taj Mahal white sauce special Chicken pasta"
+            price="6,50€"
+            img={pas2}
           />
         </>
       ),
