@@ -5,9 +5,11 @@ import { ItemCard, TextHolder, ImgHolder } from "./MenuItemCard.styles";
 function MenuItemCard({ heading, paragraph, price, img }) {
   return (
     <ItemCard>
-      <ImgHolder>
-        <Image src={img} alt="image description" />
-      </ImgHolder>
+      {img &&
+        <ImgHolder>
+          <Image src={img} alt="image description" />
+        </ImgHolder>
+      }
       <TextHolder>
         <div className="textwrap">
           <h3>{heading}</h3>

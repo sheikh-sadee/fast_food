@@ -459,6 +459,242 @@ const OurMenu = () => {
         </>
       ),
     },
+    {
+      label: "Special Indian Rice",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Chicken Biryani"
+            price="9,99 €"
+            paragraph="Os amantes da comida indiana sabem o que é uma joia Biryani. Uma porção 
+            de Arroz de Frango com os mais diferentes sabores e o mais fino sabor. É 
+            uma forma de arroz indiano que é totalmente carregado com frango e pasta 
+            de diversos vegetais, frutas secas e temperos. A melhor parte do arroz é que 
+            você nunca seria capaz de adivinhar que tempero realmente comeu. É 
+            servido com Molhos e Salada e Espetada de Batata"
+            // img={pas1}
+          />
+          <MenuItemCard
+            heading="Beef Biryani"
+            price="9,99€"
+            paragraph="Os amantes da comida indiana sabem o que é uma joia Biryani. Uma porção 
+            de arroz bovino com os mais diferentes sabores e o mais fino sabor. É uma 
+            forma de arroz indiano que é totalmente carregado com carne bovina e 
+            pasta de diversos vegetais, frutas secas e temperos. A melhor parte do arroz 
+            é que você nunca seria capaz de adivinhar que tempero realmente comeu. É 
+            servido com Molhos e Salada e Espetada de Batata."
+            // img={pas2}
+          />
+          <MenuItemCard
+            heading="Egg fried Rice with Chicken"
+            price="9,99€"
+            paragraph="O arroz frito com ovo e frango é um arroz inspirado no sudeste e é muito 
+            popular em todos os restaurantes da Índia. Os ingredientes são muito 
+            simples e macios como pimenta preta, sal e temperos chineses, todo frango 
+            frito e ovos são mesclados com arroz branco para realçar este prato especial."
+            // img={pas2}
+          />
+          <MenuItemCard
+            heading="Masala Rice"
+            price="9,99€"
+            paragraph="É um produto especial da culinária indiana e ainda muito popular entre todas 
+            as faixas etárias, as pessoas adoram comê-los, esse arroz vem com ovos 
+            cozidos como cobertura com pepino."
+            // img={pas2}
+          />
+          <MenuItemCard
+            heading="Mix Veggi Biryani"
+            price="9,99€"
+            paragraph=". Os amantes da comida indiana sabem o que é uma jóia Biryani. Uma 
+            porção de Arroz Mix veggi com os mais diferentes sabores e o mais fino 
+            sabor. É uma forma de arroz indiano totalmente carregado com vegetais e 
+            pasta de vegetais diversos, frutas secas e temperos. A melhor parte do arroz 
+            é que você nunca seria capaz de adivinhar que tempero realmente pegou. É 
+            servido com Molhos e Salada e Kebab de Batata."
+            // img={pas2}
+          />
+          <MenuItemCard
+            heading="Plain Boiled rice"
+            price="2,99 €"
+            paragraph="Uma porção de arroz branco basmati cozido importado das terras férteis do 
+            Paquistão.
+            "
+            // img={pas2}
+          />
+          
+        </>
+      ),
+    },
+    {
+      label: "Desserts",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Halwa"
+            price="3,00€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Kheer"
+            price="3,50€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Ghulab Jamun (2 pieces)"
+            price="3,00€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Rasgullah (2 pieces)"
+            price="3,00€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Molten Lava Cake"
+            price="5,00€"
+            // img={pas1}
+          />     
+        </>
+      ),
+    },
+    {
+      label: "Natural Beverages",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Mango Lassi"
+            price="2,99€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Mint Margarita"
+            price="2,50€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Rooh Afza"
+            price="2,50€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Goa special Ananas Shocker"
+            price="2,50€"
+            // img={pas1}
+          />  
+          <MenuItemCard
+            heading="Lemon Soda"
+            price="2,50€"
+            // img={pas1}
+          />  
+           <MenuItemCard
+            heading="Fresh Orange Juice"
+            price="2,50€"
+            // img={pas1}
+          />  
+        </>
+      ),
+    },
+    {
+      label: "Beverages With Gas",
+      content: (
+        <>
+          <MenuItemCard
+            heading="Coca Cola"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Coca Cola Zero"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="7up / Sprite"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Fanta"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Pedras/Friz sparkling water"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Pedras/Friz Lemon/Passion fruit/Red fruits "
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Sumol Ananas/Laranja"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Compal Manga Laranja/Pessego/Pera  "
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Agua 0,5l "
+            price="1,00€"
+          />
+          <MenuItemCard
+            heading="Agua 1,5l "
+            price="2,50€"
+          />  
+           <MenuItemCard
+            heading="Cola/Sprite/Fanta 1,5l"
+            price="3,50€"
+          />  
+        </>
+      ),
+    },
+    {
+      label: "Hot Beverages",
+      content: (
+        <> 
+          <MenuItemCard
+            heading="Café"
+            price="0,80€"
+          />  
+          <MenuItemCard
+            heading="Abtanado"
+            price="1,30€"
+          />  
+          <MenuItemCard
+            heading="Pingo"
+            price="1,00€"
+          />  
+          <MenuItemCard
+            heading="Café com Leite "
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Galao"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Hot Choclate"
+            price="1,80€"
+          />  
+          <MenuItemCard
+            heading="Cha com leite"
+            price="1,50€"
+          />  
+          <MenuItemCard
+            heading="Cha"
+            price="1,20€"
+          />  
+        </>
+      ),
+    },
+    {
+      label: "Portugal Special",
+      content: (
+        <> 
+          <MenuItemCard
+            heading="Cerveja 0.0%"
+            price="2,00€"
+          />  
+        </>
+      ),
+    },
   ];
 
   return (
