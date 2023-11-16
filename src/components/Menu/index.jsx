@@ -55,11 +55,30 @@ import piz5 from "../../../public/piz5.png";
 import piz6 from "../../../public/piz5.png";
 import piz7 from "../../../public/piz7.png";
 import piz8 from "../../../public/piz8.png";
+import seekh from "../../../public/seekh.png";
 import kid1 from "../../../public/kid1.png";
 import kid2 from "../../../public/kid2.png";
 import kid3 from "../../../public/kid3.jpg";
 import pas1 from "../../../public/pas1.png";
 import pas2 from "../../../public/pas2.png";
+import des1 from "../../../public/gulab.jpeg";
+import des2 from "../../../public/halwa.jpeg";
+import des3 from "../../../public/kheer.jpeg";
+import des4 from "../../../public/rusgula.jpeg";
+import des5 from "../../../public/molten.jpeg";
+import mango from "../../../public/mangolassi.jpeg";
+import mint from "../../../public/mint.jpeg";
+import annanas from "../../../public/ananas.jpeg";
+import lemon from "../../../public/lemon.jpeg";
+import orange from "../../../public/orange.jpeg";
+import rhoafza from "../../../public/rhoafza.jpeg";
+import beefBiryani from "../../../public/beefBiryani.jpeg";
+import chickenBiryani from "../../../public/chickenBiryani.jpeg";
+import masalaRice from "../../../public/masalaRice.jpeg";
+import eggRice from "../../../public/eggChicken.jpeg";
+import  mixVeggi from "../../../public/mixVeggi.jpeg";
+import plain from "../../../public/plainRice.jpeg";
+
 import DataTabs from "../UI/MenuTabs";
 import MenuItemCard from "../MenuItemCard";
 import { OurMenuSection, PageTitle } from "./Menu.styles";
@@ -149,25 +168,25 @@ const OurMenu = () => {
           <MenuItemCard
             heading="Mix Veggi Curry"
             price="7,99€"
-            paragraph="Um presente para os veganos do Taj Mahal desfrutarem dos melhores sabores das especiarias indianas com toque Veggi. O curry de mistura vegetariana muito popular e muito saboroso vai fazer você dizer “Incrível”. É servido com 2 pães naan."
+            paragraph="Um presente para os veganos do Taj Mahal desfrutarem dos melhores sabores das especiarias indianas com toque Veggi. O curry de mistura vegetariana muito popular e muito saboroso vai fazer você dizer “Incrível”. É servido arroz cozido simples."
             img={taj1}
           />
           <MenuItemCard
             heading="Taj Mehal Specialities Aloo Curry"
             price="7,99€"
-            paragraph="O curry de batata é o prato mais prático e fácil de fazer em casa. Quase todo mundo come no almoço ou no café da manhã também. Servido com 2 pães Naan ou arroz cozido também."
+            paragraph="O curry de batata é o prato mais prático e fácil de fazer em casa. Quase todo mundo come no almoço ou no café da manhã também. Servido arroz cozido simples."
             img={taj2}
           />
           <MenuItemCard
             heading="Palak Paneer"
             price="7,99€"
-            paragraph="Espinafre com requeijão, é uma experiência de lamber os dedos, é tão gostoso que com certeza da próxima vez você comerá de novo. É servido com arroz ou também com pães naan simples."
+            paragraph="Espinafre com requeijão, é uma experiência de lamber os dedos, é tão gostoso que com certeza da próxima vez você comerá de novo. É servido arroz cozido simples."
             img={taj3}
           />
           <MenuItemCard
             heading="Naan Chanay"
             price="7,99€"
-            paragraph="Pão naan com grão de bico branco é uma combinação perfeita, do jeito que os indianos fazem o grão de bico branco que ninguém mais faz. É o café da manhã, almoço e jantar mais popular também. É servido com 2 pães naan. Abaixo a imagem mostrará o quanto eles são populares."
+            paragraph="Pão naan com grão de bico branco é uma combinação perfeita, do jeito que os indianos fazem o grão de bico branco que ninguém mais faz. É o café da manhã, almoço e jantar mais popular também. É servido arroz cozido simples. Abaixo a imagem mostrará o quanto eles são populares."
             img={taj4}
           />
           <MenuItemCard
@@ -179,7 +198,7 @@ const OurMenu = () => {
           <MenuItemCard
             heading="Daal Makhni 7,99€"
             price="7,99€"
-            paragraph="Lentilha servida com manteiga, óleo de alho e temperos de sementes de pimenta vermelha, pimenta verde e mistura de temperos 4 King com cobertura de creme e servida com arroz ou 2 pães naan."
+            paragraph="Lentilha servida com manteiga, óleo de alho e temperos de sementes de pimenta vermelha, pimenta verde e mistura de temperos 4 King com cobertura de creme e servida arroz cozido simples."
             img={taj6}
           />
         </>
@@ -198,31 +217,31 @@ const OurMenu = () => {
           <MenuItemCard
             heading="Chicken Malai Boti"
             price="9,99€"
-            paragraph="Pequenos pedaços finos de frango desossados, marinados por cerca de 18 horas na geladeira, e temperados com algumas ervas, creme de leite fresco, iogurte e preparados no forno Tandoor, esse milagre do churrasco se chama Malai Boti. Que será servido com 2 pães Nan e molhos."
+            paragraph="Pequenos pedaços finos de frango desossados, marinados por cerca de 18 horas na geladeira, e temperados com algumas ervas, creme de leite fresco, iogurte e preparados no forno Tandoor, esse milagre do churrasco se chama Malai Boti. Que será servido arroz cozido simples."
             img={bbq2}
           />
           <MenuItemCard
             heading="Tandoori Tikka"
             price="9,99€"
-            paragraph="Frango Tandoori Tikka é um churrasco indiano muito popular, marinado com Tandoori Masala e algumas ervas. Também é servido com 2 pães naan e molho de iogurte de menta."
+            paragraph="Frango Tandoori Tikka é um churrasco indiano muito popular, marinado com Tandoori Masala e algumas ervas. Também é servido arroz cozido simples e molho de iogurte de menta."
             img={bbq3}
           />
            <MenuItemCard
             heading="Chicken IRANI Boti"
             price="9,99€"
-            paragraph="Frango O conceito IRANI Boti chegou à Índia com os imigrantes do Irã há séculos. Esses pedaços de frango para churrasco são marinados com temperos suaves e servidos com 2 pães naan e molhos."
+            paragraph="Frango O conceito IRANI Boti chegou à Índia com os imigrantes do Irã há séculos. Esses pedaços de frango para churrasco são marinados com temperos suaves e servidos arroz cozido simples."
             img={bbq4}
           />
            <MenuItemCard
             heading="Chicken and Beef Seekh Kebab"
             price="8,99€"
-            paragraph="Picados de Frango ou Carne são marinados com cebola picada, gengibre e pasta de alho e amassados com temperos, colados nos espetos e assados no forno tandoor, servidos com 2 pães Naan e molhos."
+            paragraph="Picados de Frango ou Carne são marinados com cebola picada, gengibre e pasta de alho e amassados com temperos, colados nos espetos e assados no forno tandoor, servidos arroz cozido simples."
             img={bbq5}
           />
            <MenuItemCard
             heading="Chicken Cheese Boti"
             price="9,99€"
-            paragraph="Frango de churrasco e marinado com queijo é uma super combinação. Esses pedaços de frango são servidos com 2 pães naan e molhos."
+            paragraph="Frango de churrasco e marinado com queijo é uma super combinação. Esses pedaços de frango são servidos arroz cozido simples."
             img={bbq6}
           />
         </>
@@ -235,61 +254,61 @@ const OurMenu = () => {
           <MenuItemCard
             heading="Butter Chicken"
             price="9,99€"
-            paragraph="Butter Chicken é a mistura de tomate fresco, cebola, alho, gengibre, pimenta verde, castanha de caju e creme de leite fresco, o curry tem frango grelhado desossado e é servido com 2 pães Nan."
+            paragraph="Butter Chicken é a mistura de tomate fresco, cebola, alho, gengibre, pimenta verde, castanha de caju e creme de leite fresco, o curry tem frango grelhado desossado e é servido arroz cozido simples."
             img={ic1}
           />
           <MenuItemCard
             heading="Mango Chicken"
             price="9,99€"
-            paragraph="Quando se trata de Manga toda a Índia fica louca por ela, essa fruta é uma dádiva do verão e a Índia produz mais de 75 tipos diferentes de manga, milhares de petiscos e pratos são preparados a partir do Rei das frutas que é a Manga. O restaurante Taj Mahal traz para você seu prato mais exclusivo chamado Mango Chicken, que é um curry feito com diversos temperos e polpa de manga e é servido com arroz ou 2 pães Naan."
+            paragraph="Quando se trata de Manga toda a Índia fica louca por ela, essa fruta é uma dádiva do verão e a Índia produz mais de 75 tipos diferentes de manga, milhares de petiscos e pratos são preparados a partir do Rei das frutas que é a Manga. O restaurante Taj Mahal traz para você seu prato mais exclusivo chamado Mango Chicken, que é um curry feito com diversos temperos e polpa de manga e é servido arroz cozido simples."
             img={ic2}
           />
           <MenuItemCard
             heading="Chicken Karahi"
             price="9,99€"
-            paragraph="A culinária caseira mais popular da Índia é o Chicken Karahi, um prato de frango muito simples com pasta de tomate, alho, gengibre, iogurte e creme. Servido com pão Naan fino."
+            paragraph="A culinária caseira mais popular da Índia é o Chicken Karahi, um prato de frango muito simples com pasta de tomate, alho, gengibre, iogurte e creme. Servido arroz cozido simples."
             img={ic3}
           />
           <MenuItemCard
             heading="Aachari Chicken"
             price="9,99€"
-            paragraph="O frango especial feito com tempero de picles e aquecido com óleo de palma e misturado com iogurte branco desnatado, é uma das principais opções de restaurantes da Índia. Servido com 2 pães Naan."
+            paragraph="O frango especial feito com tempero de picles e aquecido com óleo de palma e misturado com iogurte branco desnatado, é uma das principais opções de restaurantes da Índia. Servido arroz cozido simples."
             img={ic4}
           />
           <MenuItemCard
             heading="Chicken Jalfrezi"
             price="9,99€"
-            paragraph="Frango Jalfrezi, o frango com um toque de temperos indo chineses, feito de pimentão e tomate, no fogo de 180 graus. Servido com 2 pães naan."
+            paragraph="Frango Jalfrezi, o frango com um toque de temperos indo chineses, feito de pimentão e tomate, no fogo de 180 graus. Servido arroz cozido simples."
             img={ic5}
           />
           <MenuItemCard
             heading="White Creamy Chicken"
             price="9,99€"
-            paragraph="O frango especial feito com tempero de picles e aquecido com óleo de palma e misturado com iogurte branco desnatado, é uma das principais opções de restaurantes da Índia. Servido com 2 pães Naan."
+            paragraph="O frango especial feito com tempero de picles e aquecido com óleo de palma e misturado com iogurte branco desnatado, é uma das principais opções de restaurantes da Índia. Servido arroz cozido simples."
             img={ic6}
           />
           <MenuItemCard
             heading="Lamb HANDI"
             price="11,99€"
-            paragraph="cordeiro é um símbolo de status na Índia e até no Paquistão. Por ser mais cara de comprar em comparação com outras carnes e ainda assim ser cheia de proteínas e rica em sabor, a carne de cordeiro tem que ser muito marinada e cozida no vapor para que possa cozinhar e tirar o melhor proveito dela. O Taj Mahal traz um dos melhores do Lamb Handi com uma receita mais autêntica. O curry é feito a partir de uma mistura de 10 especiarias e diversas vegetais e frutas secas. é servido com 2 pães naan."
+            paragraph="cordeiro é um símbolo de status na Índia e até no Paquistão. Por ser mais cara de comprar em comparação com outras carnes e ainda assim ser cheia de proteínas e rica em sabor, a carne de cordeiro tem que ser muito marinada e cozida no vapor para que possa cozinhar e tirar o melhor proveito dela. O Taj Mahal traz um dos melhores do Lamb Handi com uma receita mais autêntica. O curry é feito a partir de uma mistura de 10 especiarias e diversas vegetais e frutas secas. é servido arroz cozido simples."
             img={ic7}
           />
           <MenuItemCard
             heading="Lamb Karahi"
             price="11,99€"
-            paragraph="Cordeiro é um símbolo de status na Índia e até no Paquistão. Por ser mais cara de comprar em comparação com outras carnes e ainda assim ser cheia de proteínas e rica em sabor, a carne de cordeiro tem que ser muito marinada e cozida no vapor para ficar macia no cozimento e tirar o melhor proveito dela. Taj Mahal traz um dos melhores do Lamb Karahi. O curry é feito de pasta de tomate, iogurte e 12 especiarias. É servido com 2 pães naan."
+            paragraph="Cordeiro é um símbolo de status na Índia e até no Paquistão. Por ser mais cara de comprar em comparação com outras carnes e ainda assim ser cheia de proteínas e rica em sabor, a carne de cordeiro tem que ser muito marinada e cozida no vapor para ficar macia no cozimento e tirar o melhor proveito dela. Taj Mahal traz um dos melhores do Lamb Karahi. O curry é feito de pasta de tomate, iogurte e 12 especiarias. É servido arroz cozido simples."
             img={ic8}
           />
           <MenuItemCard
             heading="Beef Karahi"
             price="11,99€"
-            paragraph="A receita do karahi de carne bovina é semelhante à do cordeiro, pois ambas as carnes levam muito tempo para serem macias. A carne é primeiro cozida no vapor e depois frita no curry de purê de batata e iogurte e depois guarnecida com gengibre por cima. Os portugueses são amantes de carne bovina e com certeza adorariam este curry. É servido também com 2 pães naan."
+            paragraph="A receita do karahi de carne bovina é semelhante à do cordeiro, pois ambas as carnes levam muito tempo para serem macias. A carne é primeiro cozida no vapor e depois frita no curry de purê de batata e iogurte e depois guarnecida com gengibre por cima. Os portugueses são amantes de carne bovina e com certeza adorariam este curry. É servido também arroz cozido simples."
             img={ic9}
           />
           <MenuItemCard
             heading="Palak Chicken"
             price="8,99€"
-            paragraph="Espinafre com frango e temperos é uma combinação muito popular de vegetais e carne no restaurante. Tem um sabor mais que delicioso e é servido com arroz cozido ou também com pães Naan."
+            paragraph="Espinafre com frango e temperos é uma combinação muito popular de vegetais e carne no restaurante. Tem um sabor mais que delicioso e é servido arroz cozido simples."
             img={ic10}
           />
         </>
@@ -401,7 +420,7 @@ const OurMenu = () => {
           <MenuItemCard
             heading="Seekh Kebab Pizza M/L"
             price="5,99€/10,99€"
-            img={piz6}
+            img={seekh}
           />
           <MenuItemCard
             heading="Mix Fish Special Pizza M/L"
@@ -472,7 +491,7 @@ const OurMenu = () => {
             de diversos vegetais, frutas secas e temperos. A melhor parte do arroz é que 
             você nunca seria capaz de adivinhar que tempero realmente comeu. É 
             servido com Molhos e Salada e Espetada de Batata"
-            // img={pas1}
+            img={chickenBiryani}
           />
           <MenuItemCard
             heading="Beef Biryani"
@@ -483,7 +502,7 @@ const OurMenu = () => {
             pasta de diversos vegetais, frutas secas e temperos. A melhor parte do arroz 
             é que você nunca seria capaz de adivinhar que tempero realmente comeu. É 
             servido com Molhos e Salada e Espetada de Batata."
-            // img={pas2}
+            img={beefBiryani}
           />
           <MenuItemCard
             heading="Egg fried Rice with Chicken"
@@ -492,7 +511,7 @@ const OurMenu = () => {
             popular em todos os restaurantes da Índia. Os ingredientes são muito 
             simples e macios como pimenta preta, sal e temperos chineses, todo frango 
             frito e ovos são mesclados com arroz branco para realçar este prato especial."
-            // img={pas2}
+            img={eggRice}
           />
           <MenuItemCard
             heading="Masala Rice"
@@ -500,7 +519,7 @@ const OurMenu = () => {
             paragraph="É um produto especial da culinária indiana e ainda muito popular entre todas 
             as faixas etárias, as pessoas adoram comê-los, esse arroz vem com ovos 
             cozidos como cobertura com pepino."
-            // img={pas2}
+            img={masalaRice}
           />
           <MenuItemCard
             heading="Mix Veggi Biryani"
@@ -511,7 +530,7 @@ const OurMenu = () => {
             pasta de vegetais diversos, frutas secas e temperos. A melhor parte do arroz 
             é que você nunca seria capaz de adivinhar que tempero realmente pegou. É 
             servido com Molhos e Salada e Kebab de Batata."
-            // img={pas2}
+            img={mixVeggi}
           />
           <MenuItemCard
             heading="Plain Boiled rice"
@@ -519,7 +538,7 @@ const OurMenu = () => {
             paragraph="Uma porção de arroz branco basmati cozido importado das terras férteis do 
             Paquistão.
             "
-            // img={pas2}
+            img={plain}
           />
           
         </>
@@ -532,27 +551,27 @@ const OurMenu = () => {
           <MenuItemCard
             heading="Halwa"
             price="3,00€"
-            // img={pas1}
+            img={des2}
           />  
           <MenuItemCard
             heading="Kheer"
             price="3,50€"
-            // img={pas1}
+            img={des3}
           />  
           <MenuItemCard
             heading="Ghulab Jamun (2 pieces)"
             price="3,00€"
-            // img={pas1}
+            img={des1}
           />  
           <MenuItemCard
             heading="Rasgullah (2 pieces)"
             price="3,00€"
-            // img={pas1}
+            img={des4}
           />  
           <MenuItemCard
             heading="Molten Lava Cake"
             price="5,00€"
-            // img={pas1}
+            img={des5}
           />     
         </>
       ),
@@ -564,32 +583,32 @@ const OurMenu = () => {
           <MenuItemCard
             heading="Mango Lassi"
             price="2,99€"
-            // img={pas1}
+            img={mango}
           />  
           <MenuItemCard
             heading="Mint Margarita"
             price="2,50€"
-            // img={pas1}
+            img={mint}
           />  
           <MenuItemCard
             heading="Rooh Afza"
             price="2,50€"
-            // img={pas1}
+            img={rhoafza}
           />  
           <MenuItemCard
             heading="Goa special Ananas Shocker"
             price="2,50€"
-            // img={pas1}
+            img={annanas}
           />  
           <MenuItemCard
             heading="Lemon Soda"
             price="2,50€"
-            // img={pas1}
+            img={lemon}
           />  
            <MenuItemCard
             heading="Fresh Orange Juice"
             price="2,50€"
-            // img={pas1}
+            img={orange}
           />  
         </>
       ),
