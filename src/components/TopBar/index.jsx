@@ -8,11 +8,11 @@ function TopBar() {
   return (
     <TopBarWrap>
       <div className="holder">
-        <p className="socialnetworks">Call Us Today <a href="tel:(+351)963 203 810">
+        <p className="socialnetworks">Call Us Today <a href="tel:(+351)911075925">
           <span class="material-icons-outlined btn-call">
           call
         </span>
-        <span className="text">(+351)963 203 810</span></a> | Open 7 days a week </p>
+        <span className="text">(+351)911 075 925</span></a> | Open 7 days a week </p>
         <ul className="socialnetworks">
           <li>
             <Link href="/">

@@ -658,7 +658,7 @@ const OurMenu = () => {
             price="2,50€"
           />  
            <MenuItemCard
-            heading="Cola/Sprite/Fanta 1,5l"
+            heading="Cola/Sprite/Fanta 1l"
             price="3,50€"
           />  
         </>
